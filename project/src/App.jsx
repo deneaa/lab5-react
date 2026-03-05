@@ -5,32 +5,33 @@ import Button from "./components/Button/Button";
 import ColorPallete from "./components/Color-Palette/ColorPallete";
 import colors from "./data/colors.json";
 
+const defaultColor = "rgb(240, 240, 240)";
+
 const App = () => {
   const length = 20;
 
   const [selectedColorId, setSelectedColorId] = useState(colors[0].id);
 
   const [squares, setSquares] = useState(
-    Array.from({ length }, () =>
-      Array.from({ length }, () => "rgb(240, 240, 240)"),
-    ),
+    Array.from({ length }, () => Array.from({ length }, () => defaultColor)),
   );
 
   const [savedDraws, setSavedDraws] = useState([]);
 
   const saveDraw = () => {
     const isEmpty = squares.every((row) =>
-      row.every((cell) => cell === "gray"),
+      row.every((cell) => cell === defaultColor),
     );
 
     if (isEmpty) return;
+
     const newSavedDraw = [...savedDraws, squares];
     setSavedDraws(newSavedDraw);
   };
 
   const resetDraw = () => {
     setSquares(
-      Array.from({ length }, () => Array.from({ length }, () => "gray")),
+      Array.from({ length }, () => Array.from({ length }, () => defaultColor)),
     );
   };
 
