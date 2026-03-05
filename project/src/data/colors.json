@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "name": "Coral Red",
+    "hex": "#FF6B6B",
+    "rgb": "rgb(255, 107, 107)"
+  },
+  {
+    "id": 1,
+    "name": "Orange Sunset",
+    "hex": "#FF8E53",
+    "rgb": "rgb(255, 142, 83)"
+  },
+  {
+    "id": 2,
+    "name": "Sunflower Yellow",
+    "hex": "#FFD93D",
+    "rgb": "rgb(255, 217, 61)"
+  },
+  {
+    "id": 3,
+    "name": "Fresh Green",
+    "hex": "#6BCB77",
+    "rgb": "rgb(107, 203, 119)"
+  },
+  {
+    "id": 4,
+    "name": "Bright Blue",
+    "hex": "#4D96FF",
+    "rgb": "rgb(77, 150, 255)"
+  },
+  {
+    "id": 5,
+    "name": "Turquoise",
+    "hex": "#4ECDC4",
+    "rgb": "rgb(78, 205, 196)"
+  },
+  {
+    "id": 6,
+    "name": "Purple",
+    "hex": "#9B59B6",
+    "rgb": "rgb(155, 89, 182)"
+  },
+  {
+    "id": 7,
+    "name": "Pink Magenta",
+    "hex": "#E84393",
+    "rgb": "rgb(232, 67, 147)"
+  },
+  {
+    "id": 8,
+    "name": "Dark Navy",
+    "hex": "#2C3E50",
+    "rgb": "rgb(44, 62, 80)"
+  },
+  {
+    "id": 9,
+    "name": "Gray",
+    "hex": "#7F8C8D",
+    "rgb": "rgb(127, 140, 141)"
+  },
+  {
+    "id": 10,
+    "name": "Almost Black",
+    "hex": "#1A1A1A",
+    "rgb": "rgb(26, 26, 26)"
+  },
+  {
+    "id": 11,
+    "name": "Light Gray",
+    "hex": "#F0F0F0",
+    "rgb": "rgb(240, 240, 240)"
+  }
+]
